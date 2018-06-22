@@ -1,4 +1,36 @@
 body {
   font-family: 'Roboto' , sans-serif;
-  background-color: white;
+}
+
+#home {
+  padding-top: 0%;
+}
+
+.no-upper-case {
+  text-transform: none;
+}
+
+.ext-links {
+  margin: 10px;
+}
+
+.mobile-text {
+  font-size: 1.2rem;
+}
+
+.card-title {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#toast-container {
+  position: fixed !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #name {
+    font-size: 3rem;
+  }
+  .mobile-text {
+    font-size: 1.3rem;
+  }
 }
