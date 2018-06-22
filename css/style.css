@@ -33,4 +33,7 @@ body {
   .mobile-text {
     font-size: 1.3rem;
   }
+  .toast-mobile {
+    width: fit-content;
+  }
 }

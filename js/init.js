@@ -13,18 +13,18 @@ $(document).ready(() => {
     // Fires once when element begins to come in from the top
     onBottomIn: function( elm, distance_scrolled ) {
       setTimeout(() => {
-        Materialize.toast("Please feel free to contact for feedback", 2500 );
+        Materialize.toast("Please feel free to contact for feedback", 2500, 'toast-color' );
       }, 1000);
       setTimeout(() => {
-        Materialize.toast("Or to just say hello..", 2500 );
-      }, 4000);
+        Materialize.toast("Or to just say hello..", 2500, 'toast-mobile' );
+      }, 4500);
       $('#contact').scrollfire('remove');
     }
   });
   setTimeout(() => {
-    Materialize.toast("Hey!", 2500 );
+    Materialize.toast("Hey!", 2500, 'toast-mobile');
   }, 1000);
   setTimeout(() => {
-    Materialize.toast("Welcome..", 2500 );
+    Materialize.toast("Welcome..", 2500, 'toast-mobile' );
   }, 4000);
 });
