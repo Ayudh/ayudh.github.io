@@ -35,5 +35,7 @@ body {
   }
   .toast-mobile {
     width: fit-content;
+    color: white;
+    background-color: black;
   }
 }
