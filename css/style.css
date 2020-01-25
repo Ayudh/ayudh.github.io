@@ -39,3 +39,20 @@ body {
     background-color: black;
   }
 }
+
+.autograph {
+  width: 200px;
+}
+.autograph__path {
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.animated .autograph__path {
+  opacity: 1;
+  animation-name: line;
+}
+@keyframes line {
+  100% {
+    stroke-dashoffset: 0;
+ }
+}
